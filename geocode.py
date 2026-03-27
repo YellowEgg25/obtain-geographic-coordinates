@@ -17,7 +17,7 @@ FINAL_FILE = Path("final_result.xlsx")
 
 AK = os.getenv("BAIDU_AK")
 
-CHUNK_SIZE = 5000          # 每天处理 5000 条
+CHUNK_SIZE = 4940          # 每天处理 5000 条
 RETRY_TIMES = 3            # 单条地址失败后的重试次数
 SLEEP_BETWEEN = 0.15       # 每次请求间隔，避免过快
 
