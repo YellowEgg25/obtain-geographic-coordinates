@@ -2,7 +2,7 @@ name: Daily Geocode
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 每天 UTC 2点（北京时间10点）
+    - cron: '0 21 * * *'   # 每天 UTC 21点（北京时间5点）
   workflow_dispatch:      # 允许手动运行
 
 permissions:
